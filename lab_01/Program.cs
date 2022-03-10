@@ -6,8 +6,27 @@ namespace lab_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("test2");
+            
+        }
+
+    }
+    public class Ulamek
+
+    {
+        private int licznik, mianownik;
+
+        public Ulamek() { }
+        
+
+        public  Ulamek(int licznik1, int licznik2)
+        {
+            licznik = licznik1;
+            mianownik = licznik2;
+        }
+        public  Ulamek(Ulamek prev)
+        {
+            licznik = prev.licznik;
+            mianownik = prev.mianownik;
         }
     }
 }
