@@ -1,0 +1,16 @@
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.exe
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.deps.json
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.runtimeconfig.json
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.runtimeconfig.dev.json
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.dll
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\ref\lab_01.dll
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\bin\Debug\net5.0\lab_01.pdb
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.csproj.AssemblyReference.cache
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.AssemblyInfoInputs.cache
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.AssemblyInfo.cs
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.csproj.CoreCompileInputs.cache
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.dll
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\ref\lab_01.dll
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.pdb
+D:\Users\mateusz.stradomski\Source\Repos\Programowanie_obiektowe\lab_01\obj\Debug\net5.0\lab_01.genruntimeconfig.cache
