@@ -18,15 +18,17 @@ namespace lab_01
         public Ulamek() { }
         
 
-        public  Ulamek(int licznik1, int licznik2)
+        public  Ulamek(int licznik1, int mianownik2)
         {
             licznik = licznik1;
-            mianownik = licznik2;
+            mianownik = mianownik2;
         }
         public  Ulamek(Ulamek prev)
         {
             licznik = prev.licznik;
             mianownik = prev.mianownik;
         }
+
+
     }
 }
