@@ -1,56 +1,58 @@
 ﻿using System;
+using System.Text;
 
-namespace test1
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        class Obwod
+        Student[] students = new Student[]
         {
-            public int _bok1;
-            public int _bok2;
+            new Student("Ewa", 21),
+            new Student("Jan", 25),
+            new Student("Tomasz", 18),
+            new Student("Mateusz", 55),
+            new Student("Basia", 11),
+            new Student("Kasia", 99)
+        };
 
-            public Obwod(int bok1, int bok2)
-            {
-                _bok1 = bok1;
-                _bok2 = bok2;
-            }
+        Console.WriteLine("Nie posortowane: ");
+        for (int i = 0; i < students.Length; ++i)
+            Console.WriteLine(students[i]);
 
-            public static Obwod operator &(Obwod ob1, Obwod ob2)
-            {
-                return new Obwod(ob1._bok1 & ob2._bok1, ob1._bok2 & ob2._bok2);
-            }
+        Array.Sort(students); // podczas sortowania wykorzystana zostanie metoda CompareTo()
 
-            public static Obwod operator |(Obwod ob1, Obwod ob2)
-            {
-                return new Obwod(ob1._bok1 | ob2._bok1, ob1._bok2 | ob2._bok2);
-            }
+        Console.WriteLine("Posortowane po wieku: ");
+        for (int i = 0; i < students.Length; ++i)
+            Console.WriteLine(students[i]);
+    }
+}
 
-            public static bool operator true(Obwod ob1)
-            {
-                return ob1._bok1 != 0;
-            }
+public class Student : IComparable<Student>
+{
+    private string name;
+    private int age;
 
-            public static bool operator false(Obwod ob1)
-            {
-                return ob1._bok1 == 0;
-            }
+    public Student(string name, int age)
+    {
+        this.name = name;
+        this.age = age;
+    }
 
-        }
+    public int CompareTo(Student other)
+    {
+        if (other == null) return -1;
+        if (other == this) return 0;
 
-        class Wyświetl
-        {
-            public static void Main()
-            {
-                Obwod fig1 = new Obwod(3, 4);
-                Obwod fig2 = new Obwod(4, 5);
-                Obwod fig3 = new Obwod(5, 6);
+        int diff = this.age - other.age;
 
-                if (fig1 && fig2)
-                    Console.WriteLine("Długości boków różne od zera");
+        if (diff > 0) return +1;
+        if (diff < 0) return -1;
 
-                if (fig1 || fig3)
-                    Console.WriteLine("Długości boków fig1 lub fig2 różne od zera");
-            }
-        }
+        return 0; // gdy: diff == 0
+    }
+
+    public override string ToString()
+    {
+        return "Student: " + this.name + " " + this.age;
     }
 }
