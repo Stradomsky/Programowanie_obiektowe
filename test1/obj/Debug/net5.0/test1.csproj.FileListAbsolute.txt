@@ -1,0 +1,16 @@
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.exe
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.deps.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.runtimeconfig.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.runtimeconfig.dev.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\ref\test1.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\bin\Debug\net5.0\test1.pdb
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.csproj.AssemblyReference.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.AssemblyInfoInputs.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.AssemblyInfo.cs
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\ref\test1.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.pdb
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\test1\obj\Debug\net5.0\test1.genruntimeconfig.cache

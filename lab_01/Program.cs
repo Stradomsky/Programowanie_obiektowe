@@ -6,9 +6,17 @@ namespace lab_01
     {
         static void Main(string[] args)
         {
-            Ulamek nowyulamek = new Ulamek(1, 2);
-            Console.WriteLine(nowyulamek);
-            
+            Ulamek a = new Ulamek(1, 2);
+            Console.WriteLine(a);
+            Ulamek b = new Ulamek(a);
+            Console.WriteLine(b);
+
+            Console.WriteLine();
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
         }
 
     }
@@ -20,7 +28,8 @@ namespace lab_01
 
         public Ulamek()
         {
-
+            this.licznik = 1;
+            this.mianownik = 1;
         }
 
 
@@ -33,6 +42,26 @@ namespace lab_01
         {
             licznik = prev.licznik;
             mianownik = prev.mianownik;
+        }
+
+        public static Ulamek operator + (Ulamek a, Ulamek b)
+        {
+            return new Ulamek(a.licznik * b.mianownik + b.licznik * a.mianownik, a.mianownik * b.mianownik);
+        }
+
+        public static Ulamek operator - (Ulamek a, Ulamek b)
+        {
+            return new Ulamek(a.licznik * b.mianownik - b.licznik * a.mianownik, a.mianownik * b.mianownik);
+        }
+
+        public static Ulamek operator * (Ulamek a, Ulamek b)
+        {
+            return new Ulamek(a.licznik * b.licznik, a.mianownik * b.mianownik);
+        }
+
+        public static Ulamek operator / (Ulamek a, Ulamek b)
+        {
+            return new Ulamek(a.licznik * b.mianownik, a.mianownik * b.licznik);
         }
 
         public override string ToString()
