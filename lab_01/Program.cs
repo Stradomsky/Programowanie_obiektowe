@@ -102,6 +102,13 @@ namespace lab_01
 
         }
 
+        public bool Equals(Ulamek other)
+        {
+            if (other == null) return false;
+            else if (other == this) return true;
+            return Object.Equals(this.licznik, other.licznik) && Object.Equals(this.mianownik, other.mianownik);
+        }
+
         public override string ToString()
         {
             return "Licznik = " + licznik + " & mianownik = " + mianownik;

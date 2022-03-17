@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj": {}
+    "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj": {
+    "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj",
+        "projectUniqueName": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj",
         "projectName": "lab_01",
-        "projectPath": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj",
+        "projectPath": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\lab_01.csproj",
         "packagesPath": "C:\\Users\\Mateusz-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\obj\\",
+        "outputPath": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mateusz-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
