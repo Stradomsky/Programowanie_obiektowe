@@ -4,7 +4,7 @@ namespace lab_02
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Teacher teacher1 = new Teacher("Agnieszka Iksinska", 44);
 
@@ -23,8 +23,8 @@ namespace lab_02
 
         public class Person
         {
-            string name { get; set; }
-            int age { get; set; }
+            public string name { get; set; }
+            public int age { get; set; }
 
             public Person()
                 name = "XXX";
