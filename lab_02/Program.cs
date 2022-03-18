@@ -12,11 +12,15 @@ namespace lab_02
             Student student2 = new Student("Ola Michalska", "Lab-01", 19);
             Student student3 = new Student("Kamil Nowak", "Lab-02", 20);
 
+            Student student4 = new Student();
+
             Console.WriteLine(teacher1);
 
             Console.WriteLine(student1);
             Console.WriteLine(student2);
             Console.WriteLine(student3);
+
+            Console.WriteLine(student4);
             
 
         }
@@ -26,16 +30,26 @@ namespace lab_02
             public string name { get; set; }
             public int age { get; set; }
 
+            
             public Person()
+            {
                 name = "XXX";
                 age = 0;
+            }
+
+            public override string ToString()
+            {
+                return "Name: "+ name + " ("+age+")";
+            }
         }
 
-        public class Student: Person
+        public class Student : Person
         {
             string group { get; set; }
-            
 
+            public Student()
+            { }         
+            
             public Student(string name1, string group1, int age1)
             {
                 name = name1;
@@ -46,11 +60,19 @@ namespace lab_02
         }
         public class Teacher: Person
         {
+            public Teacher()
+            { }
+            
             public Teacher(string name1, int age1)
             { 
                 name = name1;
                 age = age1;
             }
+        }
+
+        public class Classroom
+        {
+            private string name { get; set; }
         }
     }
 }
