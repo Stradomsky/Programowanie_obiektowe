@@ -1,0 +1,16 @@
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.exe
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.deps.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.runtimeconfig.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.runtimeconfig.dev.json
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\ref\lab_02_zadanie.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\bin\Debug\net5.0\lab_02_zadanie.pdb
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.csproj.AssemblyReference.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.AssemblyInfoInputs.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.AssemblyInfo.cs
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\ref\lab_02_zadanie.dll
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.pdb
+C:\Users\Mateusz-PC\source\repos\Stradomsky\Programowanie_obiektowe\lab_02_zadanie\obj\Debug\net5.0\lab_02_zadanie.genruntimeconfig.cache

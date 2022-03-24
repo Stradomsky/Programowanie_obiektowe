@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02\\lab_02.csproj",
-      "projectName": "lab_02",
-      "projectPath": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02\\lab_02.csproj",
+      "projectUniqueName": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
+      "projectName": "lab_02_zadanie",
+      "projectPath": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
       "packagesPath": "C:\\Users\\Mateusz-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateusz-PC\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02\\obj\\",
+      "outputPath": "C:\\Users\\Mateusz-PC\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mateusz-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

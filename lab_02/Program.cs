@@ -14,6 +14,8 @@ namespace lab_02
 
             Student student4 = new Student();
 
+            Student.AddTask("Task A", TaskStatus.Waiting);
+
             Console.WriteLine(teacher1);
 
             Console.WriteLine(student1);
@@ -21,8 +23,18 @@ namespace lab_02
             Console.WriteLine(student3);
 
             Console.WriteLine(student4);
-            
 
+
+        }
+
+
+        public class Task
+        {
+
+        }
+        enum TaskStatus
+        {
+            Waiting, Progress, Done, Rejected
         }
 
         public class Person
@@ -39,7 +51,7 @@ namespace lab_02
 
             public override string ToString()
             {
-                return "Name: "+ name + " ("+age+")";
+                return "Name: "+ name + " ("+age+" y.o.)";
             }
         }
 
