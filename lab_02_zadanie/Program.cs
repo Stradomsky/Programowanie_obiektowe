@@ -9,6 +9,7 @@ namespace lab_02_zadanie
         public static void Main()
         {
             Seller treacher = new Seller("Jan Kowalski", 50);
+            IThing t = treacher;
 
             Buyer buyer1 = new Buyer("Jaś Fasola 1", 25);
             Buyer buyer2 = new Buyer("Jaś Fasola 2", 21);
@@ -31,6 +32,8 @@ namespace lab_02_zadanie
 
             shop.Print();
         }
+        
+        
         class Product : IThing
         {
             private string name;
@@ -44,46 +47,6 @@ namespace lab_02_zadanie
             public virtual void Print(string prefix)
             {
                 Console.Write($"{prefix}{name}");
-
-            }
-        }
-        class Buyer : Person
-        {
-            protected List<Product> tasks;
-
-
-            public Buyer(string name, int age) : base(name, age)
-            {
-                tasks = new List<Product>();
-            }
-
-            public void AddProduct(Product product)
-            {
-                tasks.Add(product);
-            }
-
-            public void RemoveProduct(int index)
-            {
-                if (index < tasks.Count)
-                {
-                    tasks.RemoveAt(index);
-                }
-            }
-
-            public override void Print(string prefix)
-            {
-                Console.Write($"{prefix}Buyer: ");
-                base.Print(prefix);
-
-                if (tasks.Count > 0)
-                {
-                    Console.WriteLine($"{prefix}{prefix}-- Products: --");
-                    for (int i = 0; i < tasks.Count; i++)
-                    {
-                        Console.Write(prefix);
-                        tasks[i].Print("\t");
-                    }
-                }
 
             }
         }
@@ -146,7 +109,46 @@ namespace lab_02_zadanie
                 Console.Write($"{name} ({age} y.o.)\n");
             }
         }
-        
+        class Buyer : Person
+        {
+            protected List<Product> tasks;
+
+
+            public Buyer(string name, int age) : base(name, age)
+            {
+                tasks = new List<Product>();
+            }
+
+            public void AddProduct(Product product)
+            {
+                tasks.Add(product);
+            }
+
+            public void RemoveProduct(int index)
+            {
+                if (index < tasks.Count)
+                {
+                    tasks.RemoveAt(index);
+                }
+            }
+
+            public override void Print(string prefix)
+            {
+                Console.Write($"{prefix}Buyer: ");
+                base.Print(prefix);
+
+                if (tasks.Count > 0)
+                {
+                    Console.WriteLine($"{prefix}{prefix}-- Products: --");
+                    for (int i = 0; i < tasks.Count; i++)
+                    {
+                        Console.Write(prefix);
+                        tasks[i].Print("\t");
+                    }
+                }
+
+            }
+        }
         class Seller : Person
         {
             public Seller(string name, int age) : base(name, age) { }
