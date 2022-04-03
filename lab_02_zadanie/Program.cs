@@ -32,7 +32,11 @@ namespace lab_02_zadanie
 
             shop.Print();
         }
-        
+
+        interface IThing
+        {
+            string Name { get; set; }
+        }
         
         class Product : IThing
         {
@@ -84,10 +88,7 @@ namespace lab_02_zadanie
                 Console.Write($"{prefix}({weight} kg)\n");
             }
         }
-        interface IThing
-        {
-            string Name { get; set; }
-        }
+        
         class Person : IThing
         {
             private string name;

@@ -6,85 +6,35 @@ namespace lab_02
     {
         public static void Main(string[] args)
         {
-            Teacher teacher1 = new Teacher("Agnieszka Iksinska", 44);
+            Teacher teacher = new Teacher("Maria Skłodowska", 50);
 
-            Student student1 = new Student("Jan Kowalski", "Lab-01", 20);
-            Student student2 = new Student("Ola Michalska", "Lab-01", 19);
-            Student student3 = new Student("Kamil Nowak", "Lab-02", 20);
+            Student student1 = new Student("Jan Kowaslski", 21, "LAB-01");
+            Student student2 = new Student("Jan Kowaslski", 21, "LAB-01");
+            Student student3 = new Student("Jaś Fasola", 23, "LAB-02");
 
-            Student student4 = new Student();
+            student1.AddTask("Taks A", TaskStatus.Waiting);
+            student1.AddTask("Taks B", TaskStatus.Waiting);
+            student1.AddTask("Taks C", TaskStatus.Rejected);
 
-            Student.AddTask("Task A", TaskStatus.Waiting);
+            student2.AddTask("Taks A", TaskStatus.Waiting);
+            student2.AddTask("Taks B", TaskStatus.Waiting);
+            student2.AddTask("Taks C", TaskStatus.Rejected);
 
-            Console.WriteLine(teacher1);
+            student3.AddTask("Taks D", TaskStatus.Done);
+            student3.AddTask("Taks E", TaskStatus.Waiting);
+            student3.AddTask("Taks F", TaskStatus.Waiting);
 
-            Console.WriteLine(student1);
-            Console.WriteLine(student2);
-            Console.WriteLine(student3);
+            student3.UpdateTask(1, TaskStatus.Done);
+            student3.UpdateTask(2, TaskStatus.Progress);
 
-            Console.WriteLine(student4);
+            Person[] people = { teacher, student1, student2, student3 };
+            Classroom classroom = new Classroom("Sala Komputerowa", people);
 
+            Console.WriteLine(classroom);
 
+            Console.WriteLine("student1 == student2: " + student1.Equals(student2)); // Output: student1 == student2: true
+            Console.WriteLine("student1 == student3: " + student1.Equals(student3)); // Output: student1 == student3: false
         }
-
-
-        public class Task
-        {
-
-        }
-        enum TaskStatus
-        {
-            Waiting, Progress, Done, Rejected
-        }
-
-        public class Person
-        {
-            public string name { get; set; }
-            public int age { get; set; }
-
-            
-            public Person()
-            {
-                name = "XXX";
-                age = 0;
-            }
-
-            public override string ToString()
-            {
-                return "Name: "+ name + " ("+age+" y.o.)";
-            }
-        }
-
-        public class Student : Person
-        {
-            string group { get; set; }
-
-            public Student()
-            { }         
-            
-            public Student(string name1, string group1, int age1)
-            {
-                name = name1;
-                group = group1;
-                age = age1;
-            }
-
-        }
-        public class Teacher: Person
-        {
-            public Teacher()
-            { }
-            
-            public Teacher(string name1, int age1)
-            { 
-                name = name1;
-                age = age1;
-            }
-        }
-
-        public class Classroom
-        {
-            private string name { get; set; }
-        }
+                        
     }
 }
