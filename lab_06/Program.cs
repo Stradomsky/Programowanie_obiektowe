@@ -69,6 +69,10 @@ namespace lab_06
             {
                 marks.Add(mark);
             }
+            public void ShowMarks()
+            {
+
+            }
         } 
     }
 }
