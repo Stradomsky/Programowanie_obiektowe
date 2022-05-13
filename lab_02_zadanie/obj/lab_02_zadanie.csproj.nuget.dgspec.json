@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\mateusz.stradomski\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj": {}
+    "D:\\Users\\mateusz.stradomski\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj": {}
   },
   "projects": {
-    "D:\\Users\\mateusz.stradomski\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj": {
+    "D:\\Users\\mateusz.stradomski\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.stradomski\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
+        "projectUniqueName": "D:\\Users\\mateusz.stradomski\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
         "projectName": "lab_02_zadanie",
-        "projectPath": "D:\\Users\\mateusz.stradomski\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
+        "projectPath": "D:\\Users\\mateusz.stradomski\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\lab_02_zadanie.csproj",
         "packagesPath": "D:\\Users\\mateusz.stradomski\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.stradomski\\Source\\Repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\obj\\",
+        "outputPath": "D:\\Users\\mateusz.stradomski\\source\\repos\\Stradomsky\\Programowanie_obiektowe\\lab_02_zadanie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
